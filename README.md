@@ -1,5 +1,5 @@
 <h1 align="center">Merhaba 👋, Ben Semih</h1>
-<h3 align="center">Murat Yücedağ hocamızın "Asp.Net Core 6.0 ile Design Patterns" kursunu tamamladım.</h3>
+<h3 align="center">Murat Yücedağ hocamızın "Asp.Net Core ile Design Patterns" kursunu tamamladım.</h3>
 <h3 align="center">Bu kurs sayesinde Asp.Net Core'un farklı sürümleri ile farklı veri tabanları üzerinde 15 Tasarım Desenini uygulamalı olarak çalıştım. Çeşitli veri tabanları ve tasarım desenleri konusunda bilgi sahibi oldum. </h3>
 
 <br/>
