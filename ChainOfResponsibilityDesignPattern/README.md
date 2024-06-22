@@ -1,30 +1,11 @@
-<h1 align="center">Merhaba 👋, Ben Semih</h1>
-<h3 align="center">Murat Yücedağ hocamın "Asp.Net Core ile Design Patterns" kursunu tamamladım.</h3>
-<h3 align="center">Bu kurs sayesinde Asp.Net Core'un farklı sürümleri ile farklı veri tabanları üzerinde 15 Tasarım Desenini uygulamalı olarak çalıştım. Çeşitli veri tabanları ve tasarım desenleri konusunda bilgi sahibi oldum. </h3>
+<h1 align="center">Chain Of Responsibility</h1>
+<h3 align="center">Sorumluluk Zinciri -Chain of Responsibility (CoR)- tasarım deseni (behavioral design patterns) davranışsal tasarım desenlerinden biridir. Davranışlar tasarım desenleri yazılım bileşenlerinin nasıl etkileşimde bulunacağını ve nasıl işbirliği yapacaklarını yöneten şablonlardır.</h3>
 
 <br/>
 
-<h2> Kurs sürecimde öğrendiğim tasarım desenleri:</h2>
+<h2> Notlar :</h2>
 
-- 🛠️ Chain Of Responsibility Design Pattern
-- 🛠️ CQRS (Command Query Responsibility Segregetion) Design Pattern
-- 🛠️ Template Method Design Pattern
-- 🛠️ Observer Design Pattern
-- 🛠️ Unit Of Work Design Pattern
-- 🛠️ Repository Design Pattern
-- 🛠️ Composite Design Pattern
-- 🛠️ Mediator Design Pattern
-- 🛠️ Iterator Design Pattern
-- 🛠️ Facade Design Pattern
-- 🛠️ Decorator Design Pattern
-- 🛠️ ....
-- 🛠️ ...
-- 🛠️ ..
-- 🛠️ .
+- 🛠️ Gelen istek oluşturulan sıraya göre işleyicilere (handler) verilir ve eğer süreç bir işleyici tarafından sonlandırılmadıysa bir sonraki düğüm olmayana dek devam eder.
+- 🛠️ Gerçek Hayattan Bir Örnek
 
-  <h2> Kurs sürecimde kullandığım veri tabanları:</h2>
-
-- 🛠️ MSSQL
-- 🛠️ MongoDb
-- 🛠️ PostgreSql
-- 🛠️ MySql
+- - Müşteri hizmetlerini aradığınızda sizi işlemleri sıralayarak ve sesli yanıt veya tuşlama ile ilgili kişiye ulaştırdığı senaryoda sorumluluk prensibi benzeri bir yapı işliyor. Çünkü sırayla kontroller sağlanarak eğer zincirin şuanki halkası isteğinizi karşılayabiliyorsa ona yönlendiriliyor eğer karşılayamıyorsa bir sonraki halkaya aktarılıyorsunuz ta ki isteğinizi karşılayabilecek yetkiliye ulaşana kadar.
